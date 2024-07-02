@@ -16,7 +16,7 @@ public class GlobalExceptionHandling extends ResponseEntityExceptionHandler{//af
   @ExceptionHandler(ResourceNotFoundException.class)
     public ResponseEntity<ErrorDetails> resourceNotFoundException(
        ResourceNotFoundException exception, //this is specific exception only handle resourcenotfound exception like
-     //arthmetic excep,null poiinter exception
+     //arthmetic excep,null pointer exception
 
 
         WebRequest webRequest
